@@ -37,7 +37,6 @@ class Queue:
             print("\nNo data avaliable to search!")
             return
         else:
-            # print("\n")
             for i in self.items:
                 if i==data:
                     print("\nSearch Succesfull..")
